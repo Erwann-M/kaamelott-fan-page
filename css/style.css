@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "kaamelott";
+    src: url(../font/IMMORTAL.ttf);
+}
+
+body{
+    background-image: url(../img/kaamelott-fond.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: rgba(234, 240, 206, 0.6);
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 2px solid #60492c;
+    padding: 10px 50px;
+}
+
+.img-header {
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.75);
+}
+
+.principal-title {
+    font-family: "kaamelott";
+    color: #3f2c17;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #60492c;
+}
+
+.menu {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #60492c;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    font-family: "kaamelott";
+    font-size: 30px;
+    color: #eaf0ce;
+    background-color: #60492c;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(234, 240, 206, 0.6);
+}
+
+.menu ul li a:hover {
+    color: #60492c;
+    background-color: rgba(234, 240, 206, 0.6);
+    border: 2px solid #60492c;
+    transition: ease-in-out 0.5s;
+}
+
+.img-logo, 
+.img-photo-film {
+    display: block;
+    max-width: 700px;
+    margin: 5px auto;
+}
+
+.cadre {
+    max-width: 800px;
+    background-color: rgba(110, 97, 76, 0.6);
+    margin: 20px auto;
+    border: 2px solid rgba(99, 71, 34, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.subtitle {
+    font-family: "kaamelott";
+    font-size: 35px;
+    color: #2f1d07;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 23px;
+    margin: 10px;
+    text-indent: 40px;
+}
+
+.livres {
+    font-family: "kaamelott";
+    font-size: 30px;
+    color: #2f1d07;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    clear: both;
+    text-align: center;
+}
+
+.mini-livre {
+    max-width: 150px;
+}
+
+.img-decale {
+    max-width: 200px;
+}
+
+.img-left,
+.img-decale {
+    float: left;
+    margin-right: 20px;
+}
+
+.img-right {
+    float: right;
+    margin-left: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p-footer {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px auto;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    max-width: 800px;
+    background-color: rgba(110, 97, 76, 0.6);
+    border-radius: 10px;
+    border: 2px solid rgba(99, 71, 34, 0.6);
+}
