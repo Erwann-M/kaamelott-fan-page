@@ -146,3 +146,21 @@ body{
     border-radius: 10px;
     border: 2px solid rgba(99, 71, 34, 0.6);
 }
+
+table, 
+th,
+td {
+    border: 2px solid #2f1d07;
+    padding: 5px;
+    font-size: 15px;
+}
+
+th {
+    background-color: #3f2c17;
+    color: #eaf0ce;
+}
+
+table {
+    display: block;
+    margin: 10px auto;
+}
